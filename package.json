@@ -1,0 +1,24 @@
+{
+  "name": "mercador.api",
+  "version": "1.0.0",
+  "description": "Api feita em nodeJs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/mocha/bin/mocha --timeout 900000"
+  },
+  "author": "Jadson Passos",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "md5": "^2.2.1",
+    "mongoose": "^5.2.5"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
